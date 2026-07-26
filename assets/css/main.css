@@ -1275,15 +1275,15 @@ section,
 }
 /* Send Button Effect */
 
-.php-email-form button[type="submit"]{
+.send-btn{
   transition: all 0.3s ease;
 }
 
-.php-email-form button[type="submit"]:hover{
+.send-btn:hover{
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-.php-email-form button[type="submit"]:active{
+.send-btn:active{
   transform: scale(0.96);
 }
