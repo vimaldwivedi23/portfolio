@@ -1275,16 +1275,23 @@ section,
 }
 /* Send Button Effect */
 
-.php-email-form button[type="submit"]{
+.send-btn{
+  background: #149ddd !important;
+  color: #fff !important;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-.php-email-form button[type="submit"]:hover{
-  background-color: #0d6efd;
-  color: #fff;
+.send-btn:hover{
+  background: #0d6efd !important;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-.php-email-form button[type="submit"]:active{
-  background-color: #084298;
-  color: #fff;
+.send-btn:active{
+  background: #084298 !important;
+  transform: scale(0.96);
 }
