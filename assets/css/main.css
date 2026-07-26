@@ -1276,7 +1276,18 @@ section,
 /* Send Button Effect */
 
 .send-btn{
-  background: red !important;
-  color: white !important;
-  
+  background:#149ddd;
+  color:#fff;
+  transition:all .3s ease;
+}
+
+.send-btn:hover{
+  background:#0d6efd;
+  transform:translateY(-3px);
+  box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.send-btn:active{
+  background:#084298;
+  transform:scale(.96);
 }
